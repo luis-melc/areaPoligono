@@ -26,7 +26,7 @@ public class calculateArea {
         double apotemaCuadrada = Math.pow(radio,2) - Math.pow(lado/2,2);
         double apotema = Math.sqrt(apotemaCuadrada);
         double area = noLados*((lado*apotema)/2);
-        System.out.println(area);
+        System.out.println("El área del poligono es: " + area);
         // return area
     }
 
